@@ -1,0 +1,184 @@
+body { 
+    font-family: Arial,;
+    color: #333;
+    background: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    margin: 10px 10px 10px 10px;
+    background: transparent;
+    border-radius: 12px;
+    backdrop-filter: blur(18px);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header span {
+    color: #615e5e;
+    font-style: italic;
+}
+
+header p {
+    font-size: 3vh;
+}
+
+.carda {
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    backdrop-filter: blur(48px);
+    text-align: center;
+}
+
+.carda h2,p {
+    color: rgb(178, 174, 189);
+    font-weight: 600;
+}
+
+
+.cardb {
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    backdrop-filter: blur(8px);
+    text-align: center;
+}
+
+.cardb h2 {
+    color:  rgb(178, 174, 189);
+}
+
+#result {
+    font-weight: 600;
+    color: red;
+    font-size: 21px;
+}
+
+.carda img {
+    margin-right: 490px;
+    height: 305px;
+    width: auto;
+    border-radius: 8px;
+    margin-left: 530px;
+}
+
+button {
+    background: #4a66f5;
+    color: white;
+    padding: 6px 11px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #2f4fd6;
+}
+
+footer {
+    text-align: center;
+    margin: 10px auto;
+    background: transparent;
+    backdrop-filter: blur(13px);
+    border-radius: 23px;
+    width: 40%;
+    padding: 12px;
+}
+
+footer p {
+    color: #e3f036;
+}
+/* le mobile */
+@media (max-width: 320px) {
+    
+    
+    header{
+        width: 90%;
+    }
+
+    body {
+        width: 100%;
+        height: 211vh;
+    }
+
+    .carda img {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 360px) {
+    
+    
+    header{
+        width: 90%;
+    }
+
+    body {
+        width: 100%;
+        height: 211vh;
+    }
+
+    .carda img {
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    
+    header{
+        width: 90%;
+    }
+
+    body {
+        width: 100%;
+        height: 211vh;
+    }
+
+    .carda img {
+        margin: 11px auto;
+    }
+}
+
+@media (max-width: 576px) {
+    
+    
+    header{
+        width: 90%;
+    }
+
+    body {
+        width: 100%;
+        height: 211vh;
+    }
+
+    .carda img {
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    
+    header{
+        width: 90%;
+    }
+
+    body {
+        width: 100%;
+        height: 211vh;
+    }
+
+    .carda img {
+        margin: 10px auto;
+    }
+}
+
